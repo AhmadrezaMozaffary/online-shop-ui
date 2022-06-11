@@ -419,7 +419,7 @@ i {
 .show-more {
   width: 100%;
   height: max-ontent;
-  margin-top: 25px;
+  margin: 45px 0;
   display: flex;
   justify-content: center;
 }
