@@ -406,7 +406,7 @@ i {
   border-radius: 5px;
 }
 
-.resource i{
+.resource i {
   font-size: 25px;
 }
 
@@ -414,4 +414,12 @@ i {
   cursor: pointer;
   color: var(--primary-color);
   transition: color 0.4s ease;
+}
+
+.show-more {
+  width: 100%;
+  height: max-ontent;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
 }
