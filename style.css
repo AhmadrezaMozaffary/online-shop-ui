@@ -423,3 +423,47 @@ i {
   display: flex;
   justify-content: center;
 }
+
+.comments {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.comments-body {
+  width: 100%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comments-body > div {
+  width: 45%;
+  height: 80%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 3px rgba(223, 223, 223, 0.6),
+    -3px -3px 3px rgba(223, 223, 223, 0.6);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.img-cont-cm {
+  width: 35%;
+  height: 100%;
+  background: #000;
+}
+
+.cm-body {
+  width: 65%;
+  height: 70%;
+  direction: rtl;
+  margin: 0 15px;
+  line-height: 1.4;
+}
