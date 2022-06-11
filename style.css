@@ -94,10 +94,9 @@ i {
 }
 
 .logo-container {
-  width: 45px;
-  height: 45px;
+  width: 65px;
+  height: 65px;
   margin-right: 25px;
-  background: #000;
 }
 
 .nav-container {
@@ -105,12 +104,13 @@ i {
   height: 10%;
   background: #fff;
   border-radius: 8px;
-  margin: 25px 0;
+  margin: 20px 0;
 }
 
 .nav-container .nav {
   width: 100%;
   height: 100%;
+  padding: 10px 0;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -131,9 +131,8 @@ i {
 }
 
 .hero-img-container {
-  width: 25%;
-  height: 80%;
-  background: #000;
+  width: 35%;
+  height: 85%;
   margin-bottom: 15px;
 }
 
@@ -294,6 +293,7 @@ i {
 .best-shop-img-container {
   width: 100%;
   height: 80%;
+  max-height: 80%;
   background: rgb(220, 220, 220);
   background: #000;
 }
@@ -342,8 +342,7 @@ i {
 
 .ju-img-container {
   width: 30%;
-  height: 60%;
-  background: #000;
+  height: 100%;
 }
 
 .ju-about-title {
@@ -508,7 +507,6 @@ i {
 .footer-logo {
   width: 80px;
   height: 80px;
-  background: #000;
 }
 
 .tf-mid {
@@ -547,7 +545,7 @@ i {
   text-align: right;
 }
 
-.tf-left > p:nth-child(2n){
+.tf-left > p:nth-child(2n) {
   text-align: left;
 }
 
@@ -556,7 +554,7 @@ i {
   margin: 0 15px;
 }
 
-.tfl-logos{
+.tfl-logos {
   width: 100%;
   height: 15%;
   display: flex;
