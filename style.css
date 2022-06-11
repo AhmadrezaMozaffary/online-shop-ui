@@ -182,3 +182,78 @@ i {
   font-size: 50px;
   margin-bottom: 25px;
 }
+
+.vip-shops {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vs-title-cont {
+  /* cont = container */
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: var(--primary-color);
+}
+
+.vs-wrapper {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: var(--gray-bg);
+  border-radius: 0 100px 0 100px;
+}
+
+.vip-shop {
+  width: 50%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vip-shop-img-container {
+  width: 40%;
+  height: 120%;
+  background: #000;
+  margin-left: 20px;
+  border-radius: 15px;
+}
+
+.vs-subject {
+  margin: 10px 0;
+}
+
+.go-shop {
+  width: max-content;
+  height: max-content;
+  padding: 5px 15px;
+  margin-top: 35px;
+  background: white;
+  border-radius: 10px;
+}
+
+.go-shop button {
+  background: var(--primary-color);
+  color: white;
+  margin-top: 5px;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 10px 0;
+}
+
+.gold-star {
+  color: rgba(255, 217, 0, 0.748);
+}
+
+.gray-star {
+  color: rgba(128, 128, 128, 0.253);
+}
