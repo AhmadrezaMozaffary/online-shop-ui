@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --primary-color: purple;
+  --gray-bg: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+input {
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+}
+
+input:focus {
+  border: var(--primary-color) 1.5px solid;
+  outline: none;
+}
+
+button,
+.btn {
+  padding: 7px 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+button:hover,
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+i {
+  color: var(--primary-color);
+}
+
+#show-case {
+  width: 100%;
+  height: 75vh;
+  background: var(--gray-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom-left-radius: 150px;
+}
+
+.header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.wrapper {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wrapper button[class="btn"] {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.wrapper button i {
+  margin: 0 2px;
+}
+
+.create-shop {
+  background: var(--primary-color);
+  color: white;
+}
+
+.hero-btns {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo-container {
+  width: 45px;
+  height: 45px;
+  margin-right: 25px;
+  background: #000;
+}
+
+.nav-container {
+  width: 85%;
+  height: 10%;
+  background: #fff;
+  border-radius: 8px;
+  margin: 25px 0;
+}
+
+.nav-container .nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row-reverse;
+  list-style: none;
+}
+
+.nav-container .nav li:hover {
+  cursor: pointer;
+}
+
+#hero {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.hero-img-container {
+  width: 25%;
+  height: 80%;
+  background: #000;
+  margin-bottom: 15px;
+}
+
+.hero-info .title {
+  color: var(--primary-color);
+  margin-bottom: 80px;
+}
+
+.search-container {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.search-container input[type="submit"] {
+  background: var(--primary-color);
+  color: white;
+  margin-right: 4px;
+}
+.search-container input[type="search"] {
+  width: 100%;
+  direction: rtl;
+}
+
+.options {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.opt-item {
+  width: 25%;
+  height: 90%;
+  margin: 0 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.opt-item i {
+  font-size: 50px;
+  margin-bottom: 25px;
+}

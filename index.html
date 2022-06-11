@@ -4,50 +4,96 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>Online Shop</title>
   </head>
   <body>
     <section id="show-case">
       <header class="header">
-        <button class="create-shop">ایجاد فروشگاه</button>
-        <div class="hero-btns">
-          <div class="register">ثبت نام</div>
-          <div class="login">ورود</div>
-          <div class="search">جستجو</div>
+        <div class="wrapper">
+          <button class="create-shop">ایجاد فروشگاه رایگان</button>
+          <div class="hero-btns">
+            <button class="btn">ثبت نام <i class="fas fa-user"></i></button>
+            <button class="btn">
+              ورود <i class="fas fa-arrow-up-right-from-square"></i>
+            </button>
+            <button class="btn">
+              جستجو <i class="fab fa-searchengin"></i>
+            </button>
+          </div>
         </div>
+
         <div class="logo-container">LOGO</div>
       </header>
 
       <nav class="nav-container">
         <ul class="nav">
-          <li>صفحه اصلی</li>
-          <li>منابع سایت</li>
-          <li>لیست فروشگاه ها</li>
-          <li>فروش ویژه وبسایت</li>
-          <li>وبلاگ</li>
+          <li>
+            صفحه اصلی
+            <i class="fas fa-house-user"></i>
+          </li>
+          <li>
+            منابع سایت
+            <i class="fab fa-sourcetree"></i>
+          </li>
+          <li>
+            لیست فروشگاه ها
+            <i class="fas fa-basket-shopping"></i>
+          </li>
+          <li>
+            فروش ویژه سایت
+            <i class="fas fa-percent"></i>
+          </li>
+          <li>
+            وبلاگ
+            <i class="fas fa-note-sticky"></i>
+          </li>
         </ul>
       </nav>
 
       <div id="hero">
-        <div class="hero-img-container"></div>
+        <div class="hero-img-container">IMG</div>
 
         <div class="hero-info">
-          <h1 class="title"></h1>
+          <h1 class="title">بازار آنلاین برای خرید و فروش منابع آموزشی</h1>
 
           <div class="search-container">
-            <input type="submit" value="جستجو" />
-            <input type="search" name="search" id="search" />
+            <input type="submit" class="btn" value="جستجو" />
+            <input
+              type="search"
+              placeholder="آموزش خود را جستجو کنید"
+              name="search"
+              id="search"
+            />
           </div>
         </div>
       </div>
     </section>
 
     <section class="options">
-      <div class="opt-item"></div>
-      <div class="opt-item"></div>
-      <div class="opt-item"></div>
-      <div class="opt-item"></div>
+      <div class="opt-item">
+        <i class="fas fa-share-nodes"></i>
+        <p>دانش خود را به اشتراک بگذارید</p>
+      </div>
+      <div class="opt-item">
+        <i class="fas fa-money-bill-transfer"></i>
+        <p>با دانش خود کسب درآمد کنید</p>
+      </div>
+      <div class="opt-item">
+        <i class="fas fa-book-open"></i>
+        <p>از تجربیات دیگران بیاموزید</p>
+      </div>
+      <div class="opt-item">
+        <i class="fas fa-seedling"></i>
+        <p>رشد کنید</p>
+      </div>
     </section>
 
     <section class="vip-shops">
